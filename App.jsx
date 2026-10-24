@@ -7,7 +7,7 @@ import store from "./src/store";
 export default function App() {
   return (
     <Provider store={store}>
-      <main>
+      <div>
         <section className="landing" aria-labelledby="landing-title">
           <div className="landing__content">
             <p className="landing__eyebrow">Welcome to</p>
@@ -22,7 +22,7 @@ export default function App() {
         </section>
         <ProductList />
         <CartItem />
-      </main>
+      </div>
     </Provider>
   );
 }
