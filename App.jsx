@@ -1,5 +1,6 @@
 import { Provider } from "react-redux";
 import "./App.css";
+import CartItem from "./src/components/CartItem";
 import ProductList from "./src/components/ProductList";
 import store from "./src/store";
 
@@ -20,6 +21,7 @@ export default function App() {
           </div>
         </section>
         <ProductList />
+        <CartItem />
       </main>
     </Provider>
   );
